@@ -34,15 +34,9 @@ class _LoginScreenState extends State<LoginScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              RichText(
-                textAlign: TextAlign.center,
-                text: const TextSpan(
-                  style: TextStyle(fontSize: 42, fontWeight: FontWeight.w900),
-                  children: [
-                    TextSpan(text: 'F', style: TextStyle(color: AppColors.purple)),
-                    TextSpan(text: 'B', style: TextStyle(color: AppColors.lime)),
-                  ],
-                ),
+              Image.asset(
+                'assets/images/FB.png',
+                height: 96,
               ),
               const SizedBox(height: 4),
               const Text('FITBODY · ADMIN',
